@@ -161,7 +161,7 @@ Khushi Jain– AI & Technical Development
 
 Deekshanya Shri L– UI/UX & Frontend Development
 
-Shanney Maria Geogre - Research & Data Analysis
+Shanney Maria George- Research & Data Analysis
 
 📜 License
 
