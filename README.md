@@ -1,176 +1,186 @@
-🌾 Smart Food AI
+🌟 Smart Food AI
 AI-Powered Hyperlocal Smart Food System to Reduce Post-Harvest Loss & Food Insecurity in India
 
-📌 Problem Statement
-India experiences significant post-harvest food losses due to inefficient storage, poor demand forecasting, and lack of real-time market intelligence. Farmers often sell produce at low prices or lose crops due to spoilage, while many communities still face food insecurity.
+Smart Food AI is a cloud-based intelligent platform that connects farmers, storage providers, processors, and buyers using predictive analytics and real-time data insights to reduce food waste and improve supply chain efficiency.
 
-💡 Solution Overview
+🚨 Problem Statement
 
-Smart Food AI is a cloud-based AI platform that connects farmers, storage providers, food processors, and buyers through predictive analytics and hyperlocal distribution intelligence.
+India faces significant post-harvest losses due to inefficient storage, price fluctuations, and poor market connectivity, leading to economic loss for farmers and food insecurity for communities.
 
-The system uses machine learning to predict price trends, spoilage risks, and demand patterns while recommending storage and redistribution strategies to minimize food loss and improve food accessibility.
+💡 Our Solution
 
-🎯 Objectives
+Smart Food AI uses machine learning and cloud infrastructure to:
 
-Reduce post-harvest food wastage
+• Predict crop prices
+• Recommend optimal storage solutions
+• Detect spoilage risk
+• Connect farmers to buyers and processors
+• Enable hyperlocal food redistribution
 
-Improve farmer income stability
+🌍 Why This Matters Now
 
-Enable hyperlocal food redistribution
+India loses a major portion of perishable produce every year due to supply chain gaps. With rising population and climate challenges, AI-driven food supply optimization is critical for sustainable food security.
 
-Provide AI-based decision support
+⭐ Unique Value Proposition (USP)
 
-Strengthen sustainable food supply chains
+✔ Hyperlocal storage and demand matching
+✔ AI-based spoilage prediction
+✔ Real-time farmer decision support
+✔ Cloud-native scalable architecture
+✔ Community-focused food redistribution
 
-🚀 Key Features
+⚙️ Kiro Workflow Integration
 
-🤖 AI-based crop price prediction
+Smart Food AI follows a modular AI workflow using Kiro-based architecture.
 
-⚠ Real-time spoilage risk alerts
+The system processes crop data through structured pipelines to generate intelligent storage, pricing, and distribution recommendations. The .kiro directory defines project workflows, AI models, and system configuration.
 
-🏬 Smart storage recommendation system
+🧠 Core Features
 
-🛒 Hyperlocal farmer-buyer marketplace
+• AI Price Prediction
+• Spoilage Risk Detection
+• Smart Storage Recommendation
+• Hyperlocal Marketplace Integration
+• Real-Time Alert Notifications
+• Supply-Demand Forecasting
 
-📊 Demand and supply forecasting
+🏗 Architecture Overview
 
-🌦 Weather-based shelf-life estimation
+Smart Food AI follows a cloud-native serverless architecture:
 
-🔔 Real-time notification system
+User Application → API Gateway → AWS Lambda → AI Models → Storage & Analytics → Insight Delivery
 
-👥 Multi-stakeholder platform support
+📱 Interface Preview
 
-📱 Rural-friendly mobile and web interface
+📱 Smart Food AI – Wireframe Overview
 
-🏗 System Architecture
+The following wireframes illustrate the proposed user interface and workflow of the Smart Food AI platform. The design focuses on simplicity, rural accessibility, and real-time decision support.
 
-The Smart Food AI platform integrates user interaction, AI analytics, and cloud infrastructure.
+🟢 Dashboard
 
-Architecture Flow:
-Users → Smart Food AI App → AWS Backend → AI Prediction Engine → External Data → AI Insights Output
+Provides farmers with real-time insights including:
 
-Core Layers:
+• Crop price trends
+• Spoilage risk alerts
+• Nearby storage availability
+• Market demand insights
 
-User Interaction Layer (Farmers, Vendors, Storage Providers)
+This screen acts as the central decision-support hub for users.
 
-Application Layer (Mobile & Web Platform)
+🟢 Produce Upload
 
-AWS Cloud Backend
+Allows farmers to upload produce details such as:
 
-AI & Analytics Engine
+• Crop type
+• Quantity
+• Product images
 
-External Data Integration
+AI analyzes the uploaded data to predict shelf life and spoilage risk, helping farmers take preventive actions.
 
-🛠 Technology Stack
-☁ Cloud Infrastructure & Backend
+🟢 Storage Finder
 
-AWS S3 – Data storage
+Displays hyperlocal storage facilities with:
 
-AWS DynamoDB – NoSQL database
+• Location mapping
+• Storage cost comparison
+• Availability status
+• Distance from user
 
-AWS Lambda – Serverless backend processing
+This enables farmers to quickly identify the best storage options.
 
-AWS API Gateway – Secure API management
+🟢 Marketplace
 
-AWS SNS – Notification services
+Connects farmers directly with buyers and processors by showing:
 
-AWS Cognito – Authentication & access control
+• Real-time produce listings
+• Market price comparison
+• Nearby buyers
+• Direct transaction opportunities
 
-🤖 AI & Machine Learning
+🟢 Alerts & Notifications
 
-AWS SageMaker – Model training and deployment
+Provides AI-generated alerts including:
 
-Python – Backend & AI scripting
+• Spoilage risk warnings
+• Price fluctuation notifications
+• Storage availability updates
 
-TensorFlow / Scikit-learn – Predictive modeling
+This ensures proactive decision-making and reduces food wastage.
+The wireframe design prioritizes intuitive navigation, low digital literacy accessibility, and real-time agricultural decision support.
+## 📱 Interface Preview
 
-Pandas & NumPy – Data preprocessing
+![Smart Food AI Wireframe](assets/wireframes/smart-food-wireframe.png)
+<p align="center">
+  <img src="assets/wireframes/smart-food-wireframe.png" width="600">
+</p>
+Figure: Proposed Smart Food AI Mobile Application Workflow
 
-📱 Frontend Development
+🛠 Technologies Used
+Cloud & Backend
 
-Flutter / React Native – Mobile application
+AWS Lambda
 
-React.js – Web platform
+AWS API Gateway
 
-HTML, CSS, JavaScript – UI development
+AWS DynamoDB
 
-🌐 External Integration
+AWS S3
+
+AWS SNS
+
+AWS Cognito
+
+AI & Machine Learning
+
+AWS SageMaker
+
+Python
+
+TensorFlow / Scikit-learn
+
+Pandas / NumPy
+
+Frontend
+
+Flutter / React Native
+
+React.js
+
+HTML / CSS / JavaScript
+
+External Integrations
 
 Weather APIs
 
-Market price datasets
+Market Price Datasets
 
-Location and logistics APIs
+Geolocation APIs
 
 📊 Expected Impact
 
-🌾 Reduce post-harvest losses
+• Reduce post-harvest losses
+• Improve farmer income stability
+• Strengthen food supply chains
+• Support community food access
 
-💰 Improve farmer profitability
+👩‍💻 Team STRYX
 
-🍎 Improve food distribution efficiency
+• Pratheeksha Shalbin – Product Strategy & Food Technology Research
+• Khushi – AI Model Development & Cloud Integration
+• Shanney Maria George – Data Research & Analysis
+• Deekshanya Shri L – UI/UX & Frontend Development
 
-🌍 Enhance rural digital inclusion
+🗺 Development Roadmap
 
-📈 Support sustainable supply chains
-
-💰 Estimated Cost
-One-Time Development
-
-₹1.2 – ₹2.2 Lakhs
-
-Monthly Cloud Cost
-
-₹9,000 – ₹23,000 (Pay-as-you-use AWS model)
+Refer to roadmap.md for milestone-based project implementation plan.
 
 📂 Project Structure
 smart-food-ai
 │
-├── frontend
-├── backend
-├── ai-models
-├── datasets
-├── docs
+├── .kiro
 ├── assets
-│   ├── diagrams
-│   ├── wireframes
-│   └── screenshots
-└── README.md
+├── README.md
+├── roadmap.md
+├── design.md
+├── requirements.md
 
-🧪 Future Scope
-
-IoT-based storage condition monitoring
-
-Blockchain-based food traceability
-
-Multilingual voice-assisted interface
-
-Integration with government food distribution systems
-
-Expansion to national food supply chain platforms
-
-🎥 Demo
-
-https://drive.google.com/file/d/10D5SsMLfIwzqvTmYXkNfPEyhxHPcRMo9/view?usp=sharing
-
-👩‍💻 Team STRYX
-
-Pratheeksha Shalbin – Food Tech & Product Strategy
-
-Khushi Jain– AI & Technical Development
-
-Deekshanya Shri L– UI/UX & Frontend Development
-
-Shanney Maria George- Research & Data Analysis
-
-📜 License
-
-This project is licensed under the MIT License.
-
-🤝 Contribution
-
-Contributions, ideas, and improvements are welcome. Please create issues or pull requests.
-
-🌟 Hackathon Submission
-
-Developed for AWS AI for Bharat Hackathon to address food sustainability and community impact challenges.
