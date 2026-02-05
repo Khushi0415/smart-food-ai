@@ -50,7 +50,7 @@ Smart Food AI follows a cloud-native serverless architecture:
 
 User Application → API Gateway → AWS Lambda → AI Models → Storage & Analytics → Insight Delivery
 
-📱 Interface Preview
+📱 Interface Preview:
 
 📱 Smart Food AI – Wireframe Overview
 
@@ -107,9 +107,11 @@ Provides AI-generated alerts including:
 
 This ensures proactive decision-making and reduces food wastage.
 The wireframe design prioritizes intuitive navigation, low digital literacy accessibility, and real-time agricultural decision support.
+
 ## 📱 Interface Preview
 
-![Smart Food AI Wireframe](assets/wireframes/smart-food-wireframe.png)
+![Smart Food AI Wireframe](https://github.com/Khushi0415/smart-food-ai/blob/main/smart-food-wireframe.png)
+
 <p align="center">
   <img src="assets/wireframes/smart-food-wireframe.png" width="600">
 </p>
