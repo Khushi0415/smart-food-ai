@@ -51,6 +51,17 @@ Our design prioritizes intuitive navigation and real-time decision support for u
 
 ---
 
+👥 Team STRYX
+Pratheeksha Shalbin – UI Lead & Repository Management
+
+Khushi – AI Model Development & Cloud Integration
+
+Deekshanya Shri L – UX Design & Frontend Logic
+
+Shanney Maria George – Data Research & Analysis
+
+---
+---
 ## 📂 Project Structure
 ```text
 smart-food-ai
@@ -60,13 +71,4 @@ smart-food-ai
 ├── requirements.md # Technical Specifications
 └── README.md       # Project Overview
 
----
 
-👥 Team STRYX
-Pratheeksha Shalbin – UI Lead & Repository Management
-
-Khushi – AI Model Development & Cloud Integration
-
-Deekshanya Shri L – UX Design & Frontend Logic
-
-Shanney Maria George – Data Research & Analysis
