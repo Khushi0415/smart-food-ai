@@ -1,0 +1,67 @@
+project:
+  name: Smart Food AI
+  team: STRYX
+  description: AI-powered hyperlocal smart food system to reduce post-harvest loss and improve food accessibility in India
+  hackathon: AWS AI for Bharat
+
+repository:
+  type: github
+  url: https://github.com/Khushi0415/smart-food-ai
+
+application:
+  platform:
+    - mobile
+    - web
+
+  users:
+    - farmers
+    - storage_providers
+    - food_processors
+    - buyers
+
+ai_models:
+  - name: price_prediction_model
+    purpose: Predict crop market prices
+    framework: scikit-learn
+
+  - name: spoilage_prediction_model
+    purpose: Estimate shelf life and spoilage risk
+    framework: tensorflow
+
+cloud:
+  provider: AWS
+  services:
+    - S3
+    - DynamoDB
+    - Lambda
+    - API Gateway
+    - SageMaker
+    - SNS
+    - Cognito
+
+data_sources:
+  - weather_api
+  - market_price_data
+  - logistics_api
+  - user_uploaded_crop_data
+
+features:
+  - price_prediction
+  - storage_recommendation
+  - spoilage_alert
+  - marketplace_matching
+  - demand_forecasting
+  - real_time_notifications
+
+deployment:
+  architecture: serverless
+  scalability: auto_scaling
+  security:
+    authentication: AWS Cognito
+    data_encryption: enabled
+
+future_scope:
+  - IoT storage monitoring
+  - blockchain food traceability
+  - multilingual voice assistant
+  - government distribution integration
