@@ -52,6 +52,7 @@ Our design prioritizes intuitive navigation and real-time decision support for u
 ---
 
 👥 Team STRYX
+
 Pratheeksha Shalbin – UI Lead & Repository Management
 
 Khushi – AI Model Development & Cloud Integration
