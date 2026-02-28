@@ -59,3 +59,14 @@ smart-food-ai
 ├── .kiro           # Workflow & AI Configurations
 ├── requirements.md # Technical Specifications
 └── README.md       # Project Overview
+
+---
+
+👥 Team STRYX
+Pratheeksha Shalbin – UI Lead & Repository Management
+
+Khushi – AI Model Development & Cloud Integration
+
+Deekshanya Shri L – UX Design & Frontend Logic
+
+Shanney Maria George – Data Research & Analysis
