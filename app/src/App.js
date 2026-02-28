@@ -1,3 +1,4 @@
+
 <div className="ai-response-card">
   {/* Check if response exists and is an object */}
   {response && typeof response === 'object' ? (
