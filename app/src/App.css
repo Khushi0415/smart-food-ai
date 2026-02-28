@@ -1,0 +1,30 @@
+/* Card container for the AI's response */
+.ai-response-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 24px;
+  margin: 20px 0;
+  border-left: 6px solid #2e7d32; /* "Safety Green" accent */
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+  font-family: 'Inter', sans-serif;
+  color: #333;
+  text-align: left;
+}
+
+/* Header for the AI Advice section */
+.ai-card-header {
+  color: #1b5e20;
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Clean text formatting */
+.ai-answer-text {
+  line-height: 1.7;
+  font-size: 1rem;
+  white-space: pre-wrap; /* Preserves line breaks from the AI */
+}
