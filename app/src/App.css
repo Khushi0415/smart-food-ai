@@ -1,17 +1,16 @@
-/* Card container for the AI's response */
+/* --- AI Response Card (Your existing logic + UX polish) --- */
 .ai-response-card {
   background-color: #ffffff;
   border-radius: 12px;
   padding: 24px;
   margin: 20px 0;
-  border-left: 6px solid #2e7d32; /* "Safety Green" accent */
+  border-left: 6px solid #2e7d32; 
   box-shadow: 0 4px 15px rgba(0,0,0,0.08);
   font-family: 'Inter', sans-serif;
   color: #333;
   text-align: left;
 }
 
-/* Header for the AI Advice section */
 .ai-card-header {
   color: #1b5e20;
   font-size: 1.25rem;
@@ -22,9 +21,49 @@
   gap: 8px;
 }
 
-/* Clean text formatting */
-.ai-answer-text {
-  line-height: 1.7;
-  font-size: 1rem;
-  white-space: pre-wrap; /* Preserves line breaks from the AI */
+/* --- New Product & Cart UI (Matching Deeksu's UX) --- */
+.product-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+  padding: 10px;
+}
+
+.product-card {
+  background: #fff;
+  border-radius: 15px;
+  padding: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  text-align: center;
+  position: relative;
+}
+
+/* The Orange '+' Button from the UX */
+.add-button {
+  background-color: #ff8c42;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  width: 24px;
+  height: 24px;
+  font-weight: bold;
+  cursor: pointer;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+/* Shelf Life Badge (The standout feature in image 3) */
+.shelf-life-label {
+  display: block;
+  font-size: 0.8rem;
+  color: #666;
+  font-weight: 600;
+  margin: 4px 0;
+}
+
+.price-tag {
+  color: #333;
+  font-weight: 700;
+  font-size: 0.9rem;
 }
