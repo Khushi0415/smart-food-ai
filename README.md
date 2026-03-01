@@ -27,11 +27,18 @@ ANNAPURNA AI is our central decision intelligence system. It transforms fragment
 ## 📱 Interface Preview
 Our high-fidelity prototype focuses on clarity for vendors and real-time freshness tracking.
 
-### Phase 1: Market & Inventory
-| **Home Dashboard (EOM)** | **Smart Explore (DIM)** | **Freshness Cart (SIM)** |
+## 📱 Interface Preview
+Our high-fidelity prototype is structured to provide immediate value to farmers, transitioning from market awareness to AI-driven action.
+
+### Phase 1: Market & Inventory 🌾
+Focuses on real-time awareness and connecting farmers to the hyperlocal "Mandi" system.
+
+| **Home Dashboard** | **Smart Explore** | **The Challenge** |
 | :---: | :---: | :---: |
 | <img src="assets/images/home.jpg" width="220"> | <img src="assets/images/marketplace_1.jpg" width="220"> | <img src="assets/images/challenges.jpg" width="220"> |
-| *Market Rates & Trends* | *AI Discovery* | *Shelf-Life Tracking* |
+| *Market Rates & Trends* | *Grain Price Tracking* | *Identifying Pain Points* |
+
+---
 
 ### Phase 2: AI Interaction & Impact
 | **Home Screen** | <img src="assets/images/home.jpg" width="200"> | Entry point for advice and market exploration. |
