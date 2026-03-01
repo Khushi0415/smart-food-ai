@@ -1,41 +1,69 @@
-// Fallback for using MaterialIcons on Android and web.
+.app-container {
+  padding: 20px;
+  background-color: #f9fbf9;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
 
-import MaterialIcons from '@expo/vector-icons/MaterialIcons';
-import { SymbolWeight, SymbolViewProps } from 'expo-symbols';
-import { ComponentProps } from 'react';
-import { OpaqueColorValue, type StyleProp, type TextStyle } from 'react-native';
+.ai-response-card {
+  background: #ffffff;
+  border-radius: 18px;
+  padding: 24px;
+  width: 100%;
+  max-width: 450px;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.05);
+  border: 1px solid #e0eadd;
+}
 
-type IconMapping = Record<SymbolViewProps['name'], ComponentProps<typeof MaterialIcons>['name']>;
-type IconSymbolName = keyof typeof MAPPING;
+.ai-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+  border-bottom: 1px solid #f0f0f0;
+  padding-bottom: 12px;
+}
 
-/**
- * Add your SF Symbols to Material Icons mappings here.
- * - see Material Icons in the [Icons Directory](https://icons.expo.fyi).
- * - see SF Symbols in the [SF Symbols](https://developer.apple.com/sf-symbols/) app.
- */
-const MAPPING = {
-  'house.fill': 'home',
-  'paperplane.fill': 'send',
-  'chevron.left.forwardslash.chevron.right': 'code',
-  'chevron.right': 'chevron-right',
-} as IconMapping;
+.ai-brand {
+  font-weight: 800;
+  color: #1b5e20;
+  letter-spacing: 0.5px;
+  margin-left: 8px;
+}
 
-/**
- * An icon component that uses native SF Symbols on iOS, and Material Icons on Android and web.
- * This ensures a consistent look across platforms, and optimal resource usage.
- * Icon `name`s are based on SF Symbols and require manual mapping to Material Icons.
- */
-export function IconSymbol({
-  name,
-  size = 24,
-  color,
-  style,
-}: {
-  name: IconSymbolName;
-  size?: number;
-  color: string | OpaqueColorValue;
-  style?: StyleProp<TextStyle>;
-  weight?: SymbolWeight;
-}) {
-  return <MaterialIcons color={color} size={size} name={MAPPING[name]} style={style} />;
+.module-tag {
+  margin-left: auto;
+  font-size: 10px;
+  font-weight: bold;
+  background: #e8f5e9;
+  color: #2e7d32;
+  padding: 4px 8px;
+  border-radius: 20px;
+}
+
+.ai-body {
+  font-size: 15px;
+  line-height: 1.6;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.shelf-life-section {
+  background: #2e7d32;
+  padding: 12px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.shelf-life-label {
+  font-size: 9px;
+  color: #c8e6c9;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.shelf-life-value {
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: bold;
 }
