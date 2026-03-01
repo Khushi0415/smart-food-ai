@@ -43,9 +43,9 @@ We utilize a modern, scalable, and cost-effective serverless stack:
 Our high-fidelity prototype focuses on clarity for vendors and real-time freshness tracking.
 
 <p align="center">
-  <img src="assets/1.jpg" width="250" title="Home Screen">
-  <img src="assets/2.jpg" width="250" title="Explore/Recommendations">
-  <img src="assets/3.jpg" width="250" title="Cart with Shelf Life Tracking">
+  <img src="assets/images/1.jpg" width="220">
+  <img src="assets/images/2.jpg" width="220">
+  <img src="assets/images/3.jpg" width="220">
 </p>
 
 **Key UI Highlights:**
