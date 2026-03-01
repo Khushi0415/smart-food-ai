@@ -56,12 +56,15 @@ Our high-fidelity prototype focuses on clarity for vendors and real-time freshne
 ## 📱 Interface Overview
 Our design prioritizes intuitive navigation and real-time decision support for users in the field.
 
-* **🟢 Smart Dashboard:** Central hub for price trends and spoilage alerts.
-* **🟢 AI Storage Insight:** Interactive interface for crop-specific preservation logs.
-* **🟢 Hyperlocal Marketplace:** Direct mapping to nearby buyers and cold storage.
-
 ### **Wireframe Preview**
 ![Smart Food AI Wireframe](https://github.com/Khushi0415/smart-food-ai/blob/main/smart-food-wireframe.png)
+
+🔍 Feature Breakdown
+Smart Dashboard: Provides a snapshot of the best produce available and current market rates (e.g., Potato at ₹40/kg).
+
+AI Storage & Explore: Suggests healthy produce and helps vendors discover new stock through intelligent recommendations.
+
+Hyperlocal Shelf-Life Tracking: The cart view dynamically calculates remaining shelf life (e.g., Tomato: 1-week, Mutton: 1-day) to ensure food safety and reduce loss.
 
 ---
 
