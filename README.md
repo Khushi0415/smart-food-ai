@@ -35,16 +35,16 @@ Focuses on real-time awareness and connecting farmers to the hyperlocal "Mandi" 
 
 | **Home Dashboard** | **Smart Explore** | **The Challenge** |
 | :---: | :---: | :---: |
-| <img src="assets/images/home.jpg" width="220"> | <img src="assets/images/marketplace_1.jpg" width="220"> | <img src="assets/images/challenges.jpg" width="220"> |
+| <img src="assets/images/home.jpg" width="220"> | <img src="assets/images/marketplace_1.jpg" width="220"> | <img src="assets/images/challenges we solve.jpg" width="220"> |
 | *Market Rates & Trends* | *Grain Price Tracking* | *Identifying Pain Points* |
 
 ---
 
 ### Phase 2: AI Interaction & Impact
 | **Home Screen** | <img src="assets/images/home.jpg" width="200"> | Entry point for advice and market exploration. |
-| **Challenges** | <img src="assets/images/challenges.jpg" width="200"> | Identifying storage & market access pain points. |
+| **Challenges** | <img src="assets/images/challenges we solve.jpg" width="200"> | Identifying storage & market access pain points. |
 | **AI Advisor** | <img src="assets/images/chat.jpg" width="200"> | **ANNAPURNA AI** chat for crop safety. |
-| **Impact** | <img src="assets/images/impact.jpg" width="200"> | Tracking waste prevented (1,450 kg). |
+| **Impact** | <img src="assets/images/Impact.jpg" width="200"> | Tracking waste prevented (1,450 kg). |
 | **Marketplace** | <img src="assets/images/marketplace_1.jpg" width="200"> | Direct buyer-seller listings with regional pricing. |
 | **Marketplace** | <img src="assets/images/marketplace_2.jpg" width="200"> | Direct buyer-seller listings with regional pricing. |
 | **Dashboard** | <img src="assets/images/dashboard.jpg" width="200"> | Tracking waste prevented (1,450 kg). |
