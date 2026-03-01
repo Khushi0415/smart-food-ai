@@ -41,15 +41,16 @@ Focuses on real-time awareness and connecting farmers to the hyperlocal "Mandi" 
 ---
 
 ### Phase 2: AI Interaction & Impact
-| **Home Screen** | 
-<img src="assets/images/home.jpg" width="200"> | Entry point for advice and market exploration. |
+
+| Feature | Mobile Interface | Purpose |
+| :--- | :---: | :--- |
+| **Home Screen** | <img src="assets/images/home.jpg" width="200"> | Entry point for advice and market exploration. |
 | **Challenges** | <img src="assets/images/challenges we solve.jpg" width="200"> | Identifying storage & market access pain points. |
 | **AI Advisor** | <img src="assets/images/chat.jpg" width="200"> | **ANNAPURNA AI** chat for crop safety. |
 | **Impact** | <img src="assets/images/Impact.jpg" width="200"> | Tracking waste prevented (1,450 kg). |
 | **Marketplace** | <img src="assets/images/Marketplace page 1.jpg" width="200"> | Direct buyer-seller listings with regional pricing. |
 | **Marketplace** | <img src="assets/images/Marketplace page 2.jpg" width="200"> | Direct buyer-seller listings with regional pricing. |
 | **Dashboard** | <img src="assets/images/dashboard.jpg" width="200"> | Tracking waste prevented (1,450 kg). |
-
 
 > **[🎥 Watch the Interactive UI Demo Video](assets/images/Green%20Modern%20Vegetable%20Food%20Menu%20Mobile%20Design.mp4)**
 
