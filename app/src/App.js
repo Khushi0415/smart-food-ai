@@ -1,47 +1,69 @@
-import React, { useState } from 'react';
-import './App.css';
-
-function App() {
-  // In a real demo, this state would be updated after Khushi's API call
-  const [response, setResponse] = useState({
-    answer: "Keep tomatoes in a cool, dry place away from direct sunlight to maintain peak freshness.",
-    shelf_life: "1-week" 
-  }); 
-
-  return (
-    <div className="app-container">
-      {/* ANNAPURNA AI Response Component */}
-      <div className="ai-response-card">
-        {response && typeof response === 'object' ? (
-          <div className="ai-content-wrapper">
-            <div className="ai-card-header">
-              <span role="img" aria-label="leaf">🌾</span> 
-              <strong>ANNAPURNA AI</strong> 
-              <span className="module-tag">SIM Module</span>
-            </div>
-            
-            <div className="ai-answer-text">
-              {response.answer || response.text || JSON.stringify(response).replace(/[{}"]/g, '')}
-            </div>
-
-            {/* Dynamic Badge matching UX Image 3 */}
-            {response.shelf_life && (
-              <div className="shelf-life-container">
-                <div className="shelf-life-badge">
-                  SIM PREDICTION: {response.shelf_life}
-                </div>
-                <small className="accuracy-text">98% Accuracy based on local humidity</small>
-              </div>
-            )}
-          </div>
-        ) : (
-          <div className="ai-placeholder-text">
-            {response || "Enter produce details to trigger the ANNAPURNA SIM Module..."}
-          </div>
-        )}
-      </div>
-    </div>
-  );
+.app-container {
+  padding: 20px;
+  background-color: #f9fbf9;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
 }
 
-export default App;
+.ai-response-card {
+  background: #ffffff;
+  border-radius: 18px;
+  padding: 24px;
+  width: 100%;
+  max-width: 450px;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.05);
+  border: 1px solid #e0eadd;
+}
+
+.ai-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+  border-bottom: 1px solid #f0f0f0;
+  padding-bottom: 12px;
+}
+
+.ai-brand {
+  font-weight: 800;
+  color: #1b5e20;
+  letter-spacing: 0.5px;
+  margin-left: 8px;
+}
+
+.module-tag {
+  margin-left: auto;
+  font-size: 10px;
+  font-weight: bold;
+  background: #e8f5e9;
+  color: #2e7d32;
+  padding: 4px 8px;
+  border-radius: 20px;
+}
+
+.ai-body {
+  font-size: 15px;
+  line-height: 1.6;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.shelf-life-section {
+  background: #2e7d32;
+  padding: 12px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.shelf-life-label {
+  font-size: 9px;
+  color: #c8e6c9;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.shelf-life-value {
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: bold;
+}
