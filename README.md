@@ -34,10 +34,14 @@ Our high-fidelity prototype focuses on clarity for vendors and real-time freshne
 | *Market Rates & Trends* | *AI Discovery* | *Shelf-Life Tracking* |
 
 ### Phase 2: AI Interaction & Impact
-| **AI Storage Advisor** | **Impact Dashboard** | **Marketplace Detail** |
-| :---: | :---: | :---: |
-| <img src="assets/images/chat.jpg" width="220"> | <img src="assets/images/dashboard.jpg" width="220"> | <img src="assets/images/marketplace_2.jpg" width="220"> |
-| *Generative Guidance* | *Waste Prevention (1,450kg)* | *Regional Pricing* |
+| **Home Screen** | <img src="assets/images/home.jpg" width="200"> | Entry point for advice and market exploration. |
+| **Challenges** | <img src="assets/images/challenges.jpg" width="200"> | Identifying storage & market access pain points. |
+| **AI Advisor** | <img src="assets/images/chat.jpg" width="200"> | **ANNAPURNA AI** chat for crop safety. |
+| **Impact** | <img src="assets/images/impact.jpg" width="200"> | Tracking waste prevented (1,450 kg). |
+| **Marketplace** | <img src="assets/images/marketplace_1.jpg" width="200"> | Direct buyer-seller listings with regional pricing. |
+| **Marketplace** | <img src="assets/images/marketplace_2.jpg" width="200"> | Direct buyer-seller listings with regional pricing. |
+| **Dashboard** | <img src="assets/images/dashboard.jpg" width="200"> | Tracking waste prevented (1,450 kg). |
+
 
 > **[🎥 Watch the Interactive UI Demo Video](assets/images/Green%20Modern%20Vegetable%20Food%20Menu%20Mobile%20Design.mp4)**
 
@@ -58,12 +62,33 @@ Our high-fidelity prototype focuses on clarity for vendors and real-time freshne
 * **Waste Prevention:** Real-time tracking of post-harvest loss reduction (currently 8.5% reduction).
 * **Accessibility First:** Minimalist, high-contrast UI designed for outdoor use by farmers and vendors.
 
----
+----
+
+smart-food-ai (Team STRYX Contributions)
+├── app.json                # App configuration & identity
+├── App.js                  # Main logic for ANNAPURNA AI display
+├── App.css                 # Green-Tech UI styling system
+├── components
+│   └── ui
+│       ├── icon-symbol.tsx # Custom ANNAPURNA icon mapping
+│       └── AiCard.tsx      # Reusable AI insight component
+├── assets
+│   └── images              # Finalized UX Screens & Demo Video
+│       ├── home.jpg        # Home & Entry
+│       ├── challenges.jpg  # Problem Identification
+│       ├── chat.jpg        # AI Advisor Interface
+│       ├── dashboard.jpg   # Impact & Analytics
+│       ├── marketplace_1.jpg # Grain Market
+│       └── marketplace_2.jpg # Vegetable Market
+└── README.md               # Project documentation
+
+----
+----
 
 ## 👥 Team STRYX
 | Name | Role |
 | :--- | :--- |
 | **Pratheeksha Shalbin** | UI Lead & Repository Management |
-| **Khushi** | Backend & AI Model Development |
+| **Khushi Jain** | Backend & AI Model Development |
 | **Deekshanya Shri L** | UX Design & Frontend Logic |
-| **Shanney Maria George** | Data Research & Analysis |
+| **Shanney Maria George** | Data Research & Analysis | 
