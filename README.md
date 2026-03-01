@@ -44,8 +44,11 @@ Our high-fidelity prototype focuses on clarity for vendors and real-time freshne
 
 <p align="center">
   <img src="assets/images/1.jpg" width="220">
+  The "Today's Pick" and price listings (like Potato at ₹40) are the visual output of the Economic Optimization Module (EOM).
   <img src="assets/images/2.jpg" width="220">
+  The product recommendations are driven by the Demand Intelligence Module (DIM) which predicts what local buyers want.
   <img src="assets/images/3.jpg" width="220">
+  The "Shelf life 1-weeks" for tomatoes and "1-day" for mutton are real-time predictions from the Spoilage Intelligence Module (SIM).
 </p>
 
 **Key UI Highlights:**
