@@ -1,69 +1,68 @@
-/* --- AI Response Card (Your existing logic + UX polish) --- */
+/* Container for the AI Insight */
 .ai-response-card {
-  background-color: #ffffff;
-  border-radius: 12px;
+  background: #ffffff;
+  border-radius: 16px;
   padding: 24px;
-  margin: 20px 0;
-  border-left: 6px solid #2e7d32; 
-  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
-  font-family: 'Inter', sans-serif;
-  color: #333;
-  text-align: left;
+  margin: 20px auto;
+  max-width: 500px;
+  border-top: 5px solid #2e7d32;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .ai-card-header {
-  color: #1b5e20;
-  font-size: 1.25rem;
-  font-weight: bold;
-  margin-bottom: 12px;
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 10px;
+  color: #1b5e20;
+  font-size: 1.1rem;
+  margin-bottom: 15px;
 }
 
-/* --- New Product & Cart UI (Matching Deeksu's UX) --- */
-.product-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 15px;
-  padding: 10px;
+.module-tag {
+  background: #e8f5e9;
+  font-size: 0.7rem;
+  padding: 2px 8px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-left: auto;
 }
 
-.product-card {
-  background: #fff;
-  border-radius: 15px;
-  padding: 12px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
-  text-align: center;
-  position: relative;
+.ai-answer-text {
+  color: #444;
+  line-height: 1.6;
+  font-size: 1rem;
+  margin-bottom: 20px;
 }
 
-/* The Orange '+' Button from the UX */
-.add-button {
-  background-color: #ff8c42;
-  color: white;
-  border: none;
+/* Shelf Life Styling matching Deeksu's design */
+.shelf-life-container {
+  border-top: 1px solid #f0f0f0;
+  padding-top: 15px;
+}
+
+.shelf-life-badge {
+  background-color: #2e7d32;
+  color: #ffffff;
+  padding: 8px 16px;
   border-radius: 8px;
-  width: 24px;
-  height: 24px;
+  font-size: 0.85rem;
   font-weight: bold;
-  cursor: pointer;
-  position: absolute;
-  bottom: 10px;
-  right: 10px;
+  display: inline-block;
+  letter-spacing: 0.5px;
 }
 
-/* Shelf Life Badge (The standout feature in image 3) */
-.shelf-life-label {
+.accuracy-text {
   display: block;
-  font-size: 0.8rem;
-  color: #666;
-  font-weight: 600;
-  margin: 4px 0;
+  color: #888;
+  font-size: 0.7rem;
+  margin-top: 6px;
+  font-style: italic;
 }
 
-.price-tag {
-  color: #333;
-  font-weight: 700;
-  font-size: 0.9rem;
+.ai-placeholder-text {
+  color: #aaa;
+  text-align: center;
+  font-style: italic;
 }
