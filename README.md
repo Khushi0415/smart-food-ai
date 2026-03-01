@@ -72,8 +72,20 @@ Focuses on real-time awareness and connecting farmers to the hyperlocal "Mandi" 
 * **Accessibility First:** Minimalist, high-contrast UI designed for outdoor use by farmers and vendors.
 
 ----
+----
+## 👥 Team STRYX
+| Name | Role |
+| :--- | :--- |
+| **Pratheeksha Shalbin** | UI Lead & Repository Management |
+| **Khushi Jain** | Backend & AI Model Development |
+| **Deekshanya Shri L** | UX Design & Frontend Logic |
+| **Shanney Maria George** | Data Research & Analysis | 
 
-smart-food-ai (Team STRYX Contributions)
+____
+----
+## 📂 Project Structure (Team STRYX Contributions)
+```text
+smart-food-ai
 ├── app.json                # App configuration & identity
 ├── App.js                  # Main logic for ANNAPURNA AI display
 ├── App.css                 # Green-Tech UI styling system
@@ -83,21 +95,10 @@ smart-food-ai (Team STRYX Contributions)
 │       └── AiCard.tsx      # Reusable AI insight component
 ├── assets
 │   └── images              # Finalized UX Screens & Demo Video
-│       ├── home.jpg        # Home & Entry
-│       ├── challenges.jpg  # Problem Identification
-│       ├── chat.jpg        # AI Advisor Interface
-│       ├── dashboard.jpg   # Impact & Analytics
-│       ├── marketplace_1.jpg # Grain Market
-│       └── marketplace_2.jpg # Vegetable Market
+│       ├── home.jpg
+│       ├── challenges.jpg
+│       ├── chat.jpg
+│       ├── dashboard.jpg
+│       ├── marketplace_1.jpg
+│       └── marketplace_2.jpg
 └── README.md               # Project documentation
-
-----
-----
-
-## 👥 Team STRYX
-| Name | Role |
-| :--- | :--- |
-| **Pratheeksha Shalbin** | UI Lead & Repository Management |
-| **Khushi Jain** | Backend & AI Model Development |
-| **Deekshanya Shri L** | UX Design & Frontend Logic |
-| **Shanney Maria George** | Data Research & Analysis | 
