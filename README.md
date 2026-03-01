@@ -39,6 +39,20 @@ We utilize a modern, scalable, and cost-effective serverless stack:
 
 ---
 
+## 📱 Interface Preview
+Our high-fidelity prototype focuses on clarity for vendors and real-time freshness tracking.
+
+<p align="center">
+  <img src="assets/1.jpg" width="250" title="Home Screen">
+  <img src="assets/2.jpg" width="250" title="Explore/Recommendations">
+  <img src="assets/3.jpg" width="250" title="Cart with Shelf Life Tracking">
+</p>
+
+**Key UI Highlights:**
+* **Shelf-Life Intelligence:** The cart view (right) dynamically displays AI-calculated shelf life to prioritize sales.
+* **Modern Aesthetic:** A clean, "Green-Tech" theme that balances professional data with rural accessibility.
+* **Smart Categorization:** Easy filtering for Vegetables, Fruits, Dairy, and Poultry.
+
 ## 📱 Interface Overview
 Our design prioritizes intuitive navigation and real-time decision support for users in the field.
 
