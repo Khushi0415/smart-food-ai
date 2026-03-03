@@ -1,0 +1,68 @@
+/* Container for the AI Insight */
+.ai-response-card {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 24px;
+  margin: 20px auto;
+  max-width: 500px;
+  border-top: 5px solid #2e7d32;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.ai-card-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #1b5e20;
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+}
+
+.module-tag {
+  background: #e8f5e9;
+  font-size: 0.7rem;
+  padding: 2px 8px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-left: auto;
+}
+
+.ai-answer-text {
+  color: #444;
+  line-height: 1.6;
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+/* Shelf Life Styling matching Deeksu's design */
+.shelf-life-container {
+  border-top: 1px solid #f0f0f0;
+  padding-top: 15px;
+}
+
+.shelf-life-badge {
+  background-color: #2e7d32;
+  color: #ffffff;
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-size: 0.85rem;
+  font-weight: bold;
+  display: inline-block;
+  letter-spacing: 0.5px;
+}
+
+.accuracy-text {
+  display: block;
+  color: #888;
+  font-size: 0.7rem;
+  margin-top: 6px;
+  font-style: italic;
+}
+
+.ai-placeholder-text {
+  color: #aaa;
+  text-align: center;
+  font-style: italic;
+}
