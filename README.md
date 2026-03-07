@@ -52,8 +52,7 @@ Focuses on real-time awareness and connecting farmers to the hyperlocal "Mandi" 
 | **Marketplace** | <img src="assets/images/Marketplace page 2.jpg" width="200"> | Direct buyer-seller listings with regional pricing. |
 | **Dashboard** | <img src="assets/images/dashboard.jpg" width="200"> | Tracking waste prevented (1,450 kg). |
 
-> **[🎥 Watch the Interactive UI Demo Video](assets/images/ANNAPURNA AI 247 Expert Storage Guidance.mp4)**
----
+> **[🎥 Watch the Interactive UI Demo Video](assets/images/ANNAPURNA%20AI%20247%20Expert%20Storage%20Guidance.mp4)**---
 
 ## 🏗 Architecture & Tech Stack
 | Layer | Technology |
